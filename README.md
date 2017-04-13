@@ -1,4 +1,4 @@
-# Angular 4.0 example with Angular material 2.0-beta-3
+# Angular 4.0 example with Angular material 2.0-beta-3 on Angular-Cli project
 
 this is a hands on example of angular 4 with angular material 2 beta 3 included
 this is for developer and new learner of angular
