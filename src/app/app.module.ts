@@ -5,7 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdCheckboxModule } from '@angular/material';
+
+//we can import each like this
+// import { MdButtonModule, MdCheckboxModule } from '@angular/material';
+
+//we can import all like this
+import { MaterialModule } from '@angular/material';
 
 import 'hammerjs';
 
@@ -18,8 +23,9 @@ import 'hammerjs';
     FormsModule,
     HttpModule,
     BrowserAnimationsModule,
-    MdButtonModule,
-    MdCheckboxModule
+    // MdButtonModule,
+    // MdCheckboxModule
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
